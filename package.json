@@ -1,0 +1,27 @@
+{
+  "name": "ctap",
+  "version": "0.0.0",
+  "description": "nodejs module for hsenid mobile solutions, ctap.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/isuruanu/ctap-nodejs.git"
+  },
+  "keywords": [
+    "ctap",
+    "nodejs",
+    "ussd",
+    "sms",
+    "cas",
+    "charging"
+  ],
+  "author": "Isuru Anuranga Wijesinghe <isuru.develop@gmail.com> (https://github.com/isuruanu)",
+  "license": "GNU GPL v3.0",
+  "bugs": {
+    "url": "https://github.com/isuruanu/ctap-nodejs/issues"
+  },
+  "homepage": "https://github.com/isuruanu/ctap-nodejs"
+}
