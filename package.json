@@ -2,7 +2,7 @@
   "name": "ctap",
   "version": "0.0.0",
   "description": "nodejs module for hsenid mobile solutions, ctap.",
-  "main": "index.js",
+  "main": "lib/ctap.js",
   "scripts": {
     "test": "make test"
   },
@@ -19,13 +19,21 @@
     "charging"
   ],
   "author": "Isuru Anuranga Wijesinghe <isuru.develop@gmail.com> (https://github.com/isuruanu)",
-  "license": "GNU GPL v3.0",
+  "licenses": [
+               {
+                 "type": "GPL-3.0",
+                 "url": "http://opensource.org/licenses/GPL-3.0"
+               }
+             ], 
   "bugs": {
     "url": "https://github.com/isuruanu/ctap-nodejs/issues"
   },
   "homepage": "https://github.com/isuruanu/ctap-nodejs",
   "devDependencies": {
     "mocha": "~2.1.0",
-    "chai": "~1.10.0"
+    "chai": "~1.10.0"    	
+  },  
+  "dependencies": {
+	  "request": "<2.16.0"
   }
 }

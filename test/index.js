@@ -1,5 +1,5 @@
 var should = require('chai').should(),
-    scapegoat = require('../index'),
+    scapegoat = require('../lib/ctap'),
     escape = scapegoat.escape,
     unescape = scapegoat.unescape;
 

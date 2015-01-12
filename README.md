@@ -1,23 +1,13 @@
-ctap-nodejs
+node-ctap
 =========
 
 A library providing a framework for hsenid mobile telco application platform.
 
 ## Installation
 
-  npm install ctap --save
+  npm install --save
 
 ## Usage
-
-  var ctap = require('ctap')
-      escape = ctap.escape,
-      unescape = ctap.unescape;
-
-  var html = '<h1>Hello World</h1>',
-      escaped = escape(html),
-      unescaped = unescape(escaped);
-
-  console.log('html', html, 'escaped', escaped, 'unescaped', unescaped);
 
 ## Tests
 
