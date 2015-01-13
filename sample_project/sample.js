@@ -23,8 +23,6 @@ app.configure(function() {
 	app.use(app.router);		
 });
 
-app.get('/',  routes.hello);
-
 app.post('/ussd', routes.ussd);
 
 http.createServer(app).listen(app.get('port'), function(){

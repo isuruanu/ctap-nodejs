@@ -2,7 +2,7 @@
   "name": "ctap",
   "version": "0.0.0",
   "description": "nodejs module for hsenid mobile solutions, ctap.",
-  "main": "lib/ctap.js",
+  "main": "lib/ussd_session.js",
   "scripts": {
     "test": "make test"
   },

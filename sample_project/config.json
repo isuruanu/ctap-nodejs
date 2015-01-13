@@ -1,3 +1,19 @@
 {
-	"port" : 8081
+	"port" : 8081,
+	"ctap" : {
+		"ussd" : {
+			"endpoint" : {
+				"hostname": "127.0.0.1",
+				"port": 7000,
+				"path": "/ussd/send"
+				"headers" : {
+					"Content-Type" : "application/json"
+				}				
+			},
+			"app" : {
+				"applicationId" : "APP_000101",
+				"password" : "password"
+			}			
+		}				
+	}
 } 
