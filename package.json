@@ -1,6 +1,6 @@
 {
   "name": "ctap",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "nodejs module for hsenid mobile solutions, ctap.",
   "main": "lib/ussd_session.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/isuruanu/ctap-nodejs.git"
+    "url": "https://github.com/isuruanu/node-ctap.git"
   },
   "keywords": [
     "ctap",
@@ -26,9 +26,9 @@
                }
              ], 
   "bugs": {
-    "url": "https://github.com/isuruanu/ctap-nodejs/issues"
+    "url": "https://github.com/isuruanu/node-ctap/issues"
   },
-  "homepage": "https://github.com/isuruanu/ctap-nodejs",
+  "homepage": "https://github.com/isuruanu/node-ctap.git",
   "devDependencies": {
     "mocha": "~2.1.0",
     "chai": "~1.10.0"    	
