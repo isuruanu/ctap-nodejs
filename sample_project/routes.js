@@ -1,7 +1,7 @@
 var http = require('http'), 
     fs = require('fs');
 
-var ussdSession = require('../lib/ussd_session');
+var ussdSession = require('ctap');
 
 //Configuration
 try {
