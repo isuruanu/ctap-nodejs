@@ -6,6 +6,7 @@
 				"hostname": "127.0.0.1",
 				"port": 7000,
 				"path": "/ussd/send",
+				"method" : "POST",
 				"headers" : {
 					"Content-Type" : "application/json"
 				}				

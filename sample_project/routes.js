@@ -1,6 +1,18 @@
-var http = require('http');
+var http = require('http'), 
+    fs = require('fs');
 
 var ussdSession = require('../lib/ussd_session');
+
+//Configuration
+try {
+    var configJSON = fs.readFileSync(__dirname + "/config.json");
+    var config = JSON.parse(configJSON.toString());
+    ussdSession.configure({endpoint : config.ctap.ussd.endpoint, app : config.ctap.ussd.app});
+} catch(e) {
+    console.error("File config.json not found or is invalid: " + e.message);
+    process.exit(1);
+}
+
 
 ussdSession.setMapping({
 	'index' : {
